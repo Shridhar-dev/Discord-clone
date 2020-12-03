@@ -1,0 +1,6 @@
+.uppointer-sb{
+    display:none
+}
+.status-badge:hover .uppointer-sb{
+    display: block;
+}

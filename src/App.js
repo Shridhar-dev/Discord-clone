@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import React,{useEffect,useState} from 'react';
 import './App.css';
+import SplashScreen from './SplashScreen';
+import Main from './Main';
 
 function App() {
-  return (
+  const [timer, settimer] = useState(0)
+  console.log(timer)
+  useEffect(() => {
+    setTimeout(function(){  
+      settimer(2)
+    console.log(timer) 
+  }, 4000);
+    
+  }, [])  
+
+  let tag = timer===2 ? <Main/> : <SplashScreen />
+  return ( 
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {tag}
     </div>
-  );
+  )
 }
 
 export default App;

@@ -1,0 +1,20 @@
+.enlarged{
+    background-color:red;
+    height:100vh;
+    width:68.5%
+}
+@media only screen and (max-width: 1200px) {
+    .enlarged{
+        width:93.5%
+    }
+  }
+  @media only screen and (max-width: 370px) {
+    .enlarged{
+        width:93.4%
+    }
+  }
+  @media only screen and (max-width: 364px) {
+    .enlarged{
+        width:93.3%
+    }
+  }

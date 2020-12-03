@@ -1,0 +1,82 @@
+.ch-nav:hover{
+    background-color:rgba(79, 84, 92, 0.16);
+    cursor: pointer;
+}
+.ch-text{
+    color:#8e9297
+}
+.ch-text:hover {
+    color:white 
+}
+.ch-nav{
+    transition:0.5s;
+}
+.invite:hover div{
+    visibility: visible;
+}
+.top-pointer{
+    display: none;
+}
+/*
+.top-pointer:hover div{
+    visibility: visible;
+}*/
+
+.uppointer-ia,.uppointer-ch{
+    display:none
+}
+.plus-div:hover .uppointer-ch{
+    display: block;
+}
+.ico-acc-div:hover .uppointer-ia{
+    display: block;
+    
+}
+.collapse-item:hover{
+    background-color: rgb(114,137,218) !important;
+    color: white !important;
+}
+.collapse-item-ls:hover{
+    background-color: rgb(240,71,71) !important;
+    color: white !important;
+}
+
+.collapse-item-ls:hover .text-color-ls{
+    color: white !important;
+}
+.collapse-item-ls:hover .svg-fill-ls > path{
+    fill: white !important;
+}
+
+.collapse-item:hover .text-color{
+    color: white !important;
+}
+.collapse-item:hover .svg-fill> path{
+    fill: white !important;
+}
+.ico-acc{
+    fill:rgb(185,187,190)
+}
+.ico-acc-div{
+    border-radius: 5px;
+    padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+}
+.ico-acc-div:hover{
+    background-color: rgba(79,84,92,0.24);
+}
+.fa-caret-down:hover{
+    color:white
+}
+.hto:hover ~ .top-pointer{
+ 
+    display: block;
+}
+.plus-ch{
+    fill: #8e9297;
+}
+.plus-div:hover .plus-ch{
+    fill: white !important;
+}
+.plus-div:hover .ch-text{
+    fill: rgb(0, 0, 0) !important;
+}

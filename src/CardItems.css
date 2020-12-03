@@ -1,0 +1,39 @@
+.uppointer{
+    display:none
+}
+.uppointer2{
+    display: none;
+}
+.invite-div:hover .uppointer{
+    display: block;
+    
+}
+.settings-div:hover  .uppointer2{
+    display: block;
+}
+.main-ch-group-a{
+    background-color: rgb(57,60,67);
+}
+.main-ch-group-a .invite{
+    display: inline-block;
+}
+.main-ch-group-a .settings{
+    display: inline-block;
+}
+.main-ch-group-b .invite{
+    display: none;
+}
+.main-ch-group-b .settings{
+    display: none;
+}
+
+.main-ch-group-b:hover .invite{
+    display: inline-block;
+}
+.main-ch-group-b:hover .settings{
+    display: inline-block ;
+}
+
+.main-ch-group-b:hover{
+    background-color:rgba(79,84,92,0.24)
+}
